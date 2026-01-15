@@ -1,0 +1,92 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+# if you ever export conda env files, keep these tracked:
+# environment.yml
+# requirements.txt
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+# if you use jupyterlab
+.jupyter/
+
+# =========================
+# Logs / caches
+# =========================
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Data / Outputs (VERY IMPORTANT)
+# =========================
+data/raw/
+data/interim/
+data/processed/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# =========================
+# Models / Results
+# =========================
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+results/
+outputs/
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Secrets (never commit)
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
