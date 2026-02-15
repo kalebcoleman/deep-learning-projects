@@ -1,6 +1,6 @@
 # Project 01: ANN Baseline
 
-PyTorch implementation for MAT499/599 Project 1 (wine quality regression).
+PyTorch implementation for MAT499 Project 1 (wine quality regression).
 
 ## Contents
 - `notebooks/Project_1.ipynb`: primary graded notebook submission.
@@ -17,8 +17,6 @@ bash scripts/run.sh
 
 ## Run Notebook
 Open `notebooks/Project_1.ipynb` in Jupyter and run all cells top-to-bottom.
-
-If you are enrolled in MAT599, set `CLASS_SEED = 599` in the notebook.
 
 ## Tests
 Run:
