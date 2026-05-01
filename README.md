@@ -1,24 +1,42 @@
-# Deep Learning Projects (Spring 2026)
+# Deep Learning Coursework Projects
 
-Course projects covering core deep learning models and workflows. Each project is self-contained with its own `src/`, `notebooks/`, and `scripts/`.
+This repository is a notebook-first collection of deep learning coursework and applied projects. The main artifacts are Jupyter notebooks: class exercises live in `notebooks/`, and larger assignments live in `projects/project-XX-name/notebooks/`.
+
+The layout is intentionally simple for review by recruiters, research labs, and course staff. Legacy scripts, empty placeholders, runtime state, and old shared-code scaffolding are preserved under `archive/` instead of being deleted.
 
 ## Structure
-- `project-01-ann/`: Fully connected neural network (ANN) baseline.
-- `project-02-hpo/`: Hyperparameter optimization and search.
-- `project-03-cnn/`: Convolutional neural networks and filter visualization.
-- `project-04-rnn/`: Sequence modeling with RNNs.
-- `shared/`: Reusable helpers and utilities across projects.
-- `environment/`: Conda environment used for development.
+
+- `notebooks/`: numbered coursework notebooks covering gradient descent, classification, regularization, optimization, and CNN basics.
+- `projects/project-01-ann/`: wine-quality regression with fully connected neural networks.
+- `projects/project-02-hpo/`: hyperparameter optimization experiments.
+- `projects/project-03-cnn/`: Fashion-MNIST CNN classification.
+- `projects/project-04-wildfire-smoke/`: wildfire smoke bounding-box prediction with a pretrained CNN.
+- `docs/notebook-index.md`: notebook index with topic, model, and dataset summaries.
+- `archive/`: legacy code, empty placeholders, checkpoints, and tool/runtime state kept out of the active learning path.
+- `environment.yml`: Conda environment for running notebooks.
 
 ## Setup
-Create the conda environment:
-```
-conda env create -f environment/environment.yml
+
+```bash
+conda env create -f environment.yml
 conda activate deep-learning
+python -m ipykernel install --user --name deep-learning --display-name "Python (deep-learning)"
 ```
 
-## Running a project
-Each project has a `README.md` with instructions and a `scripts/` folder with the primary run command.
+## How To Use
 
-## Notes
-Large files (datasets, model checkpoints, results) are intentionally ignored via `.gitignore`.
+Start with `docs/notebook-index.md`, then open the notebook that matches the topic or project you want to review.
+
+For coursework notebooks:
+
+```bash
+jupyter lab notebooks/
+```
+
+For major projects:
+
+```bash
+jupyter lab projects/project-01-ann/notebooks/
+```
+
+Project 1 keeps a small `src/` package because its graded notebook imports those model, data, loss, and training classes directly. Other empty script/module scaffolds were archived.

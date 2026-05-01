@@ -1,0 +1,7 @@
+Final training loss: 0.00082
+Final validation loss: 0.00109
+Mean training IoU: 0.5501
+Mean validation IoU: 0.5043
+Mean test IoU: 0.5054
+Best test IoU: 0.8826
+Best test image: ck0kmfd7ibcib0721v08q1jv0_jpeg.rf.8965bf83aff0df8ea94290a16227d8c9.jpg
