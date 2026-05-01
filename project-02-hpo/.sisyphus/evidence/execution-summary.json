@@ -1,0 +1,13 @@
+{
+  "notebook": "/Users/itzjuztmya/Kaleb/deep-learning-projects/project-02-hpo/notebooks/hpo_analysis.ipynb",
+  "executed_code_cells": 14,
+  "total_code_cells": 14,
+  "code_cells_with_outputs": 14,
+  "deterministic_rerun_pass": true,
+  "key_results": {
+    "baseline_mean_val_error": 0.167944,
+    "dropout_mean_val_error": 0.163182,
+    "weight_decay_mean_val_error": 0.153659,
+    "best_learning_rate": "1e-3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "markers": {
+    "Question 1 Baseline Results": {
+      "match": true,
+      "hash_a": "60c65a82d4088fea16dad0d9ed2be62b20ecd1659d7d1c48d8f810108f13fe7a",
+      "hash_b": "60c65a82d4088fea16dad0d9ed2be62b20ecd1659d7d1c48d8f810108f13fe7a"
+    },
+    "Q2 Summary: Mean Validation Metrics": {
+      "match": true,
+      "hash_a": "ff126d85be361bd929f35ba3085594cfad8de2d674f9b546bdfb99000f0d3b56",
+      "hash_b": "ff126d85be361bd929f35ba3085594cfad8de2d674f9b546bdfb99000f0d3b56"
+    },
+    "Best learning rate:": {
+      "match": true,
+      "hash_a": "f156bd181fa2e5e70ecbb086e114106ee3a27057815e10e225b9e89b57c6e4df",
+      "hash_b": "f156bd181fa2e5e70ecbb086e114106ee3a27057815e10e225b9e89b57c6e4df"
+    },
+    "Fold-to-Fold Validation Error Variability": {
+      "match": true,
+      "hash_a": "e8f5e31308c1cf732a9d4d00e4c0f289fc2af176be7099f43f9ed379d82138c8",
+      "hash_b": "e8f5e31308c1cf732a9d4d00e4c0f289fc2af176be7099f43f9ed379d82138c8"
+    }
+  },
+  "pass": true
+}

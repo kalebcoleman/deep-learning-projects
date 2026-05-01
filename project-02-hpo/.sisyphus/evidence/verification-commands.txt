@@ -1,0 +1,3 @@
+jupyter nbconvert --to notebook --execute "notebooks/hpo_analysis.ipynb" --output "/tmp/hpo_submission_with_curves.ipynb" --ExecutePreprocessor.timeout=1200
+jupyter nbconvert --to notebook --execute "notebooks/hpo_analysis.ipynb" --output "/tmp/hpo_submission_with_curves_b.ipynb" --ExecutePreprocessor.timeout=1200
+python3 compare key output markers across the two executed notebooks
